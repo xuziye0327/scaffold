@@ -1,0 +1,12 @@
+[package]
+name = "my-app-crate"
+version = "0.1.0"
+
+edition.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+
+[lints]
+workspace = true
