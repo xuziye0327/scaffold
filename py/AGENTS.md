@@ -2,7 +2,7 @@
 
 ## Core Rules
 
-- **NEVER** create separate documentation files unless explicitly requested, including design documents, architecture proposals, implementation plans, work summaries, usage guidelines, or benchmark reports; **DO** provide a brief explanation directly in your response instead.
+- **NEVER** create/edit documentation files unless explicitly requested, including design documents, architecture proposals, implementation plans, work summaries, usage guidelines, or benchmark reports; **DO** provide a brief explanation directly in your response instead.
 
 ## Use uv
 
