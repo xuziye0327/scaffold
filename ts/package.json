@@ -1,0 +1,23 @@
+{
+  "name": "ts",
+  "type": "module",
+  "module": "index.ts",
+  "scripts": {
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "check": "oxlint --type-aware --type-check",
+    "check:fix": "oxlint --type-aware --type-check --fix",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "oxfmt": "^0.78.0",
+    "oxlint": "^1.93.0",
+    "oxlint-tsgolint": "^7.0.2006"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
