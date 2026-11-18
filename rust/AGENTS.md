@@ -1,9 +1,8 @@
 # Agent Development Guidelines
 
-## Instruction Precedence
+## Core Rules
 
-- When development guidelines conflict, follow this order of precedence:
-  **Project `AGENTS.md` → project rules → global `AGENTS.md` → global rules**.
+- **NEVER** create separate documentation files unless explicitly requested, including design documents, architecture proposals, implementation plans, work summaries, usage guidelines, or benchmark reports; **DO** provide a brief explanation directly in your response instead.
 
 ## Use Cargo
 
